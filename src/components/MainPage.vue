@@ -27,11 +27,11 @@ export default {
 </script>
 
 <style scoped>
-.box{
+.box {
   display: grid;
 }
 
-.box input{
+.box input {
   width: 200px;
 }
 </style>
