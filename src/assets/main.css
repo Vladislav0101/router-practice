@@ -1,0 +1,12 @@
+body::before {
+  content: "desktop";
+  display: none;
+}
+@media (max-width: 1024px) {
+  body::before {
+    content: "mobile";
+  }
+  body {
+    background-color: black;
+  }
+}

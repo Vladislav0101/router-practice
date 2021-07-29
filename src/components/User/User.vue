@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <router-view/>
+    <router-view />
     <router-view name="info" />
 
     <router-link :to="`${$route.params.id}/info`">(nested) info</router-link>

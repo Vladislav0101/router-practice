@@ -1,5 +1,7 @@
 <template>
  <div class="box">
+  <router-view />
+
   <router-view name='header'/>
 
   <p>Hello, welcome to main page!</p>
